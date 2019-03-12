@@ -2,20 +2,19 @@ self.addEventListener('install', function(e) {
  e.waitUntil(
    caches.open('vanjstodo-store').then(function(cache) {
      return cache.addAll([
-       '/vanillajs/',
-       '/vanillajs/index.html',
-       '/vanillajs/index.js',
-       '/vanillajs/images/pirate_PNG90.png',
-       '/vanillajs/js/app.js',
-       '/vanillajs/js/controller.js',
-       '/vanillajs/js/helpers.js',
-       '/vanillajs/js/model.js',
-       '/vanillajs/js/store.js',
-       '/vanillajs/js/template.js',
-       '/vanillajs/js/view.js',
-       '/vanillajs/node_modules/todomvc-app-css/index.css',
-       '/vanillajs/node_modules/todomvc-common/base.css',
-       '/vanillajs/node_modules/todomvc-common/base.js'
+       '/ToDojs/',
+       '/ToDojs/index.html',
+       '/ToDojs/index.js',
+       '/ToDojs/js/app.js',
+       '/ToDojs/js/controller.js',
+       '/ToDojs/js/helpers.js',
+       '/ToDojs/js/model.js',
+       '/ToDojs/js/store.js',
+       '/ToDojs/js/template.js',
+       '/ToDojs/js/view.js',
+       '/ToDojs/node_modules/todomvc-app-css/index.css',
+       '/ToDojs/node_modules/todomvc-common/base.css',
+       '/ToDojs/node_modules/todomvc-common/base.js'
      ]);
    })
  );

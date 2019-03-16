@@ -1,0 +1,35 @@
+#header {
+			background-color: #F0E68C;
+			text-align: center;
+			font-size: 150%;
+			border: 3px solid #1E90FF;
+            width: 100%;
+            border-width: 20px;
+		}
+		#nav {
+			background-color: #F0E68C;	
+		}
+		#tagline {
+			background-color: #1E90FF;
+			text-align: center;
+			border: 3px solid #F0E68C;
+            width: 100%;
+            border-width: 20px;
+		}
+		body {
+			background-color: #F0E68C;
+			font-family: Verdana;
+		}
+		#main_content {
+			font-weight: bold;
+			font-size: 110%;
+		}
+		#footer{
+			font-family: Times New Roman;
+			font-style: italic;
+            border:3px solid;
+			width: 100%;
+            border-width: 20px;
+            border-color:#1E90FF;
+            text-align:center;
+		}

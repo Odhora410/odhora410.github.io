@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Final_Project</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="customBooking.css" type="text/css" />
+
+	<script type="text/javascript" src="customBooking1.js">
+	</script>
+	
+</head>
+<body>
+	<div id="nav">
+		Menu:
+		<a href="busline_home.html">Home Page</a> |
+		<a href="busline_reservation.html">Make a Reservation</a> |
+		<a href="busline_mailing.html">Join Our Mailing List</a> |
+		<a href="busline_contactus.html">Contact Us</a>
+	</div>
+	<div id="header">
+		<h1>
+			Make a Reservation
+		</h1>
+	</div>
+	
+	<div id="tagline">
+		<h2>
+		Dhorajiwala Express<br>
+		
+		<img src="busagents.jpg" alt="Bus" width="400" height="300">
+		</h2>
+	</div>
+	
+	<div id="main_content">
+	
+		<form name="reservation">
+		<p class="serif">Name <input type="text" id="FN" name="txtFName" placeholder="First Name"/></p>
+		<p class="serif">Name <input type="text" id="LN" name="txtLName" placeholder="Last Name"/></p>
+		
+		<p class="serif">Number of Travelers
+		<select name="Number of Travelers" id="num_trav">
+			<option value="1">One</option>
+			<option value="2">Two</option>
+			<option value="3">Three</option>
+			<option value="4">Four</option>
+			<option value="5">Five</option>
+			<option value="6">Six</option>
+		</select></p>
+		
+		<p class="serif">Number of days
+		<select name="Number of days" id="num_days">
+			<option value="2">Two</option>
+			<option value="3">Three</option>
+			<option value="4">Four</option>
+			<option value="5">Five</option>
+			<option value="6">Six</option>
+			<option value="7">Seven</option>
+		</select></p>
+		
+		<p>Arrival City:</p>
+		<p>Milwaukee ($20) <input type="radio" name="Milwaukee" id="chkMil" value="20"/>	
+			Detroit ($35) <input type="radio" name="Detroit" id="chkDet" value="35"/>
+			St Louis ($40) <input type="radio" name="St Louis" id="chkStL" value="40"/></p>
+			
+		<p>Hotel Choice:</p>
+		<p>Economy ($50/day) <input type="radio" name="Economy" id="chkec" value="50"/>	
+			Standard ($70/day) <input type="radio" name="Standard" id="chkst" value="70"/>
+			Upscale ($120/day) <input type="radio" name="Upscale" id="chkup" value="120"/></p>
+		
+		<p>Upgrade Options:</p>
+		<p>Wifi ($10) <input type="checkbox" id="chkwifi" value="10"></p>
+		<p>Fully-Reclining Seat ($20) <input type="checkbox" id="chkfrs" value="20"></p>
+		
+		<p>Meal choice:</p>
+		<p>None <input type="radio" name="None" id="chkno" value="0"/>	
+			Snack ($5) <input type="radio" name="Snack" id="chksn" value="5"/>
+			Full meal ($10) <input type="radio" name="Full meal" id="chkfm" value="10"/></p>
+		
+		<p>Special Requests?
+			<textarea  name="txtarSpecialRequests" id="rOc" col="30" rows="5" placeholder="Requests or Comments">
+			</textarea>
+		</p>
+		
+		<p><input type="button" value="Book My Trip!" style="background-color:#1E90FF;" onclick="cusbook()"></p>
+		
+		</form>
+		
+		<p id="p1"></p>
+		
+		<p id="p2"></p>
+		
+	</div>
+	
+	<div id="footer">
+		<h4>
+		Address: 410 Wala Rd, Chicago, IL 60607 <br>
+		Phone: 000-000-0000
+		</h4>
+	</div>
+
+</body>
+</html>
